@@ -120,7 +120,14 @@ public class CropOverlayView extends View {
      * The initial crop window padding from image borders
      */
     private float mInitialCropWindowPaddingRatio;
-
+    
+    /**
+     * Setter for initial crop window padding
+     */
+    public void setInitialCropWindowPaddingRatio(float initialCropWindowPaddingRatio) {
+        mInitialCropWindowPaddingRatio = initialCropWindowPaddingRatio;
+    }
+    
     /**
      * The radius of the touch zone (in pixels) around a given Handle.
      */
